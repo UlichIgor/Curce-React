@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Інтерактивний український курс React Hooks: useState, useEffect, useContext, useRef, useMemo, useCallback та useReducer.">
+<title>React Hooks — інтерактивний курс</title><link rel="stylesheet" href="course.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="./">REACT<span>LAB</span></a><nav><a href="#program">Програма</a><a href="#practice">Практика</a><a href="#exam">Іспит</a><a href="https://react.dev/reference/react/hooks" target="_blank" rel="noreferrer">Документація ↗</a></nav></header>
+<main>
+<section class="hero"><p class="eyebrow">ІНТЕРАКТИВНЕ НАВЧАННЯ · УКРАЇНСЬКОЮ</p><h1>React Hooks:<br><em>від основ до практики</em></h1><p class="lead">Розберися з хуками React, закріпи знання тестами та створи власний компонент у практичній лабораторії.</p><div class="hero-actions"><a class="btn primary" href="#program">Почати навчання</a><a class="btn ghost" href="#practice">До практики</a></div><div class="stats"><div><strong>7</strong><span>модулів</span></div><div><strong>7</strong><span>мінітестів</span></div><div><strong>10</strong><span>питань іспиту</span></div></div></section>
+<section class="progress-panel"><div class="progress-head"><div><p class="eyebrow">ТВІЙ ПРОГРЕС</p><h2>Навчальний маршрут</h2></div><strong id="progressText">0%</strong></div><div class="progress"><span id="progressBar"></span></div><p id="progressDetail">Пройдено 0 із 7 модулів</p></section>
+<section id="program" class="section"><div class="section-heading"><p class="eyebrow">ПРОГРАМА</p><h2>Відкривай модулі послідовно</h2><p>Кожен модуль містить коротке пояснення, приклад і перевірку знань.</p></div><div class="layout"><aside id="moduleNav" class="module-nav" aria-label="Навігація модулів"></aside><article id="moduleContent" class="lesson"></article></div></section>
+<section id="practice" class="section practice"><div class="section-heading"><p class="eyebrow">PLAYGROUND</p><h2>Лабораторія useState</h2><p>Змінюй значення та спостерігай, як стан впливає на інтерфейс.</p></div><div class="lab"><div><span class="eyebrow">ЛІЧИЛЬНИК</span><div class="counter" id="counter">0</div><div class="controls"><button id="minus" class="btn ghost">− Зменшити</button><button id="plus" class="btn primary">+ Збільшити</button><button id="reset" class="btn ghost">Скинути</button></div></div><pre><code>const [count, setCount] = useState(0);
+
+function increment() {
+  setCount(current => current + 1);
+}
+
+return (
+  &lt;button onClick={increment}&gt;
+    {count}
+  &lt;/button&gt;
+);</code></pre></div><p class="hint">Порада: функціональне оновлення setCount(current =&gt; current + 1) надійне, коли новий стан залежить від попереднього.</p></section>
+<section id="exam" class="section"><div class="section-heading"><p class="eyebrow">ФІНАЛЬНА ПЕРЕВІРКА</p><h2>Іспит: 10 запитань</h2><p>Для завершення курсу потрібно набрати щонайменше 8 правильних відповідей.</p></div><div id="examBox" class="exam-box"><button id="startExam" class="btn primary">Почати іспит</button></div></section>
+<section class="finish"><h2>Навчайся, експериментуй, створюй</h2><p>Найкращий спосіб зрозуміти React Hooks — використовувати їх у власних компонентах.</p><a href="https://react.dev/learn" target="_blank" rel="noreferrer">Офіційний React Learn ↗</a></section>
+</main><footer>ReactLab · Навчальний проєкт UlichIgor · <a href="https://github.com/UlichIgor/Curce-React">GitHub репозиторій</a></footer>
+<script src="course.js"></script></body></html>
