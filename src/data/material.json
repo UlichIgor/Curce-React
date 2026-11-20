@@ -1,22 +1,22 @@
 [
   {
-    "title": "Початок роботи",
-    "body":"Create React App — це офіційно підтримуваний спосіб створення односторінкових програм React. Він пропонує сучасне налаштування збірки без конфігурації.",
-    "href":"https://create-react-app.dev/docs/getting-started/"
+    "title": "Початок роботи з React",
+    "body": "Офіційний вступ до React: компоненти, JSX, відображення даних, події та оновлення інтерфейсу.",
+    "href": "https://react.dev/learn"
   },
   {
-    "title": "Структура папки",
-    "body":"Ви можете створити підкаталоги всередині src. Для швидшого відновлення srcwebpack обробляє лише файли всередині. Вам потрібно помістити будь-які файли JS і CSS всерединуsrc , інакше webpack їх не побачить.",
-    "href":"https://create-react-app.dev/docs/folder-structure"
+    "title": "Структура React-компонентів",
+    "body": "Практичний посібник зі створення, імпорту, експорту та композиції компонентів React.",
+    "href": "https://react.dev/learn/your-first-component"
   },
   {
-    "title": "Доступні скрипти",
-    "body":"npm start Запускає веб-сервер з вашим проектом з використанням development сервера.\n\nnpm test\n\nЗапускає тести.\n\nnpm run build\n\nСтворює збірку для розгляду.\n\nnpm run eject\n\nРозкриває конфігу",
-    "href":"https://create-react-app.dev/docs/getting-started/"
+    "title": "React Hooks — довідник",
+    "body": "Повний довідник вбудованих хуків React: стан, контекст, посилання, ефекти та оптимізація.",
+    "href": "https://react.dev/reference/react/hooks"
   },
   {
-    "title":"Підтримувані браузери та функції",
-    "body":"За замовчуванням створений проект підтримує всі сучасні браузери. Для підтримки Internet Explorer 9, 10 і 11 потрібні полізаповнення. Для набору полізаповнень для підтримки старих браузерів використовуйте react-app-polyfill .",
-    "href":"https://create-react-app.dev/docs/supported-browsers-features"
+    "title": "Власні хуки та повторне використання логіки",
+    "body": "Навчись виділяти повторювану поведінку в окремі власні хуки та правильно використовувати правила Hooks.",
+    "href": "https://react.dev/learn/reusing-logic-with-custom-hooks"
   }
 ]
